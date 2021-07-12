@@ -1,0 +1,31 @@
+{
+  "name": "railan-bernardo/teste-facilita",
+  "description": "Teste pratico para a appfacilita",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Railan Bernardo",
+      "email": "railabernardo2016@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    },
+    "files": [
+      "source/Support/Config.php",
+      "source/Support/Helpers.php"
+    ]
+  },
+  "require": {
+    "php": "^7.4",
+    "league/plates": "v4.0.0-alpha",
+    "coffeecode/optimizer": "^1.0",
+    "coffeecode/router": "^1.0"
+  }
+}
